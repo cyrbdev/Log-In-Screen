@@ -4,13 +4,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Eater&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Momo+Trust+Display&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-
+            <div class="header-logo">
+                <h1>Logo</h1>
+            </div>
         </header>
         <main>
-            
+            <section class="main-section">
+                <div class="main-tittle" id="main-tittle">
+                    <h1>LOGIN</h1>
+                    <p>Welcome back! Please enter your details.</p>
+                </div>
+                <div class="main-tittle" id="register-tittle">
+                    <p>Already have an account? <a href="#" id="show-register">Register</a></p>
+                </div>
+                <div class="login-form" id="login-form">
+                    <form action="" method="post">
+                        <div class="form-group" id="email-group">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group" id="password-group">
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" id="login-button">Login</button>
+                    </form>
+                </div>
+                <div class="login-form" id="register-form" hidden>
+                    <form action="" method="post">
+                        <div class="form-group" id="name-form">
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </div>      
+                        <div class="form-group" id="lastname-form">
+                            <input type="text" name="lastname" id="lastname" placeholder="Enter your last name">
+                        </div>      
+                        <div class="form-group" id="email-form">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group" id="password-form">
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group" id="confirm-password-form">
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password">
+                        </div>
+                        <button type="submit" id="register-button">Register</button>
+                    </form>
+                </div>
+            </section>
         </main>
     </body>
 </html>
