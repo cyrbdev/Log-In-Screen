@@ -76,6 +76,9 @@ function validateregister(name,email, password, confirmPassword, lastName){
     else if(name === ""){
         alert("Please enter your name.");
     }
+    else if (password !== confirmPassword){
+        alert("Please make sure that your password is the same")
+    }
     else if(lastName === ""){
         alert("Please enter your last name.");
     }
