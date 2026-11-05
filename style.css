@@ -7,10 +7,12 @@
 body{
     font-family: 'Momo Trust Display', sans-serif;
     background-color: #f5f5f5;
-    background-image: url('https://i.redd.it/m0bv61rf4im51.png');
+    background-image: url('img/space.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 100vh;
+    color: #ffffff;
 }
 
 .main-section{
@@ -26,6 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 40px;
 }
 
 
@@ -34,16 +37,13 @@ body{
     padding: 30px 30px 30px 30px;
     border-radius: 10px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .main-tittle{
     font-size: 24px;
-    margin-bottom: 20px;
     font-size: 1.3rem;
-}
-
-.main-tittle h1{
-    margin-top: 5rem;
+    text-align: center;
 }
 
 .form-group{
@@ -52,23 +52,53 @@ body{
 
 form input[type="text"],form input[type="password"],form input[type="email"]{
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 5px;
+    background: transparent;
+    border: none;
+    background-color: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    color: #ffffff;
 }
 
 button{
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #9604f7;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: .5rem .5rem;
+    margin: .5rem .6rem;
 }
 
 #register-tittle{
     font-size: 1rem;
     margin: auto;
+}
+
+.main-tittle p{
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.header-logo img{
+    width: 100px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.register-link p{
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.register-link a{
+    color: #068fff;
+    text-decoration: none;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+    color: #9900ff;
 }
