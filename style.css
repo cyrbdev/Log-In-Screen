@@ -7,7 +7,7 @@
 body{
     font-family: 'Momo Trust Display', sans-serif;
     background-color: #f5f5f5;
-    background-image: url('https://cdn.mos.cms.futurecdn.net/vTti3KwUtSs4AVHppPtCfa-1920-80.jpg');
+    background-image: url('img/rocket.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,7 @@ button{
 }
 
 .register-link a{
-    color: #062bff;
+    color: #068fff;
     text-decoration: none;
 }
 
